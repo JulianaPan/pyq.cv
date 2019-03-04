@@ -33,13 +33,6 @@
 			}
 			window.setInterval("reinitIframe()", 400);
 			
-			checkHeight = function() {
-				var iframe = document.getElementById("menuFrame");
-				var bHeight = iframe.contentWindow.find("body").height();
-				var dHeight = iframe.contentWindow.document.documentElement.scrollHeight;
-				console.log("bHeight:" + bHeight + ", dHeight:" + dHeight);
-			}
-			
 		</script>
 	</head>
 	<body>
@@ -64,7 +57,6 @@
 				<button type="button" class="btn btn-secondary navbtn" onclick="dispRight(this)" custom="honor.html">Honor</button>
 				<button type="button" class="btn btn-secondary navbtn" onclick="dispRight(this)" custom="hobby.html">Hobby</button>
 			</div>
-			<div><button onclick="checkHeight()">Check Height</button></div>
 		</div>
 		<!--右侧主页-->
 		<div class="main_right">
