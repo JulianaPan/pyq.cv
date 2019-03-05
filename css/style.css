@@ -1,3 +1,4 @@
+/*index*/
 .main_left{
 	width: 15%;
     height: 100%;
@@ -9,4 +10,15 @@
     height: 100%;
     float:right;
     cursor:pointer;
+}
+/*name*/
+.name_center{
+	height:50%;
+	width:50%;
+	text-align:center;
+	margin: auto;
+	position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
 }
