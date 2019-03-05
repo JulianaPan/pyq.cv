@@ -26,4 +26,12 @@
     transform:translate(-50%,-50%);
 }
 
-html,body{height:100%;}
+html,body{height:100%;width:100%}
+
+.divider{
+	height: 10%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align:left;
+}
