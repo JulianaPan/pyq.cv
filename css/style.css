@@ -27,22 +27,3 @@ html,body{height:100%;width:100%}
     left:50%;
     transform:translate(-50%,-50%);
 }
-
-.edu{
-	height: 100%;
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 5%;
-}
-.divider{
-	width: 100%;
-	text-align:left;
-}
-.edu_content{
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 5%;
-	text-align:left;
-}
