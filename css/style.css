@@ -21,14 +21,15 @@
     margin-right: 25%;
 	margin-bottom: 10%;
 }
-/*education*/
-.edu{
+/*除了name和index的界面及抬头*/
+.content{
 	width:90%;
 	height:100%;
 	margin-left:5%;
 	margin-right:5%;
+	margin-top: 1%;
 }
-.edu_divier{
+.divider{
 	width:100%;
 	height:10%;
 	text-align:left;
