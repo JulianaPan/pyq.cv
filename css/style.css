@@ -26,4 +26,13 @@
     transform:translate(-50%,-50%);
 }
 
+.edu{
+	height: 10%;
+	width: 90%;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right:5%;
+	text-align: left;
+}
+
 html,body{height:100%;width:100%}
