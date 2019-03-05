@@ -1,3 +1,9 @@
+/**/
+html,body{
+	width:100%;
+	height:100%;
+}
+
 /*index*/
 .main_left{
 	width: 15%;
@@ -24,8 +30,14 @@
 /*education*/
 .edu{
 	width:90%;
-	margin-top:5%;
-	margin-left:5%;
-	margin-right:5%;
+	height:100%;
+	left:5%;
+	right:5%;
+	
+}
+.edu_divier{
+	width:100%;
+	height:10%;
 	text-align:left;
+	
 }
