@@ -22,7 +22,9 @@
 				var iframe = document.getElementById("menuFrame");
 				try{
 				var bHeight = iframe.contentWindow.document.body.scrollHeight;
+				console.log("bH="+bHeight);
 				var dHeight = iframe.contentWindow.document.documentElement.scrollHeight;
+				console.log("dH="+dHeight);
 				var height = Math.max(bHeight, dHeight);
 				iframe.height = height;
 				console.log(height);
