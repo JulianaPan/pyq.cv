@@ -1,7 +1,7 @@
 .main_left{
 	width: 15%;
     height: 100%;
-    float:right;
+    float:left;
     cursor:pointer;
 }
 .main_right{
