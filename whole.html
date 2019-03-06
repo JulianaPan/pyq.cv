@@ -11,7 +11,7 @@
 	</head>
 	<body style="height: 100%;">
 		<script>
-			reinitIframe = function() { 
+			reinitNameIframe = function() { 
 				var nameIframe = document.getElementById("nameFrame");
 				try{
 				var bHeight = nameIframe.contentWindow.document.body.scrollHeight;
@@ -22,7 +22,8 @@
 				nameIframe.height = height;
 				console.log(height);
 				}catch (ex){}
-				
+			}
+			reinitEduIframe = function(){
 				var eduIframe = document.getElementById("eduFrame");
 				try{
 				var bHeight = eduIframe.contentWindow.document.body.scrollHeight;
@@ -35,7 +36,7 @@
 				}catch (ex){}
 			}
 		</script>
-		<iframe id="nameFrame" name="nameFrame" src="name.html" style="overflow:visible;border: 0px;" marginwidth="0" marginheight="0" width="100%" scrolling="no" frameborder="0" onload="reinitIframe()" ></iframe>
-		<iframe id="eduFrame" name="eduFrame" src="education.html" style="overflow:visible;border: 0px;" marginwidth="0" marginheight="0" width="100%" scrolling="no" frameborder="0" onload="reinitIframe()" ></iframe>
+		<iframe id="nameFrame" name="nameFrame" src="name.html" style="overflow:visible;border: 0px;" marginwidth="0" marginheight="0" width="100%" scrolling="no" frameborder="0" onload="reinitNameIframe()" ></iframe>
+		<iframe id="eduFrame" name="eduFrame" src="education.html" style="overflow:visible;border: 0px;" marginwidth="0" marginheight="0" width="100%" scrolling="no" frameborder="0" onload="reinitEduIframe()" ></iframe>
 	</body>
 </html>
