@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" style="height: 100%;">
+	<head>
+		<!-- Required meta tags -->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<title>潘雨茜CV</title>
+	</head>
+	<body style="height: 100%;">
+		<script>
+			reinitIframe = function() { 
+				var iframe = document.getElementById("menuFrame");
+				try{
+				var bHeight = iframe.contentWindow.document.body.scrollHeight;
+				console.log("bH="+bHeight);
+				var dHeight = iframe.contentWindow.document.documentElement.scrollHeight;
+				console.log("dH="+dHeight);
+				var height = Math.max(bHeight, dHeight);
+				iframe.height = height;
+				console.log(height);
+				}catch (ex){}
+			}
+		</script>
+		<iframe id="nameFrame" name="nameFrame" src="name.html" style="overflow:visible;border: 0px;" marginwidth="0" marginheight="0" width="100%" scrolling="no" frameborder="0" onload="reinitIframe()" ></iframe>
+		<iframe id="eduFrame" name="eduFrame" src="education.html" style="overflow:visible;border: 0px;" marginwidth="0" marginheight="0" width="100%" scrolling="no" frameborder="0" onload="reinitIframe()" ></iframe>
+	</body>
+</html>
