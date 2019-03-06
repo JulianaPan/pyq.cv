@@ -12,14 +12,25 @@
 	<body style="height: 100%;">
 		<script>
 			reinitIframe = function() { 
-				var iframe = document.getElementById("menuFrame");
+				var nameIframe = document.getElementById("nameFrame");
 				try{
-				var bHeight = iframe.contentWindow.document.body.scrollHeight;
+				var bHeight = nameIframe.contentWindow.document.body.scrollHeight;
 				console.log("bH="+bHeight);
-				var dHeight = iframe.contentWindow.document.documentElement.scrollHeight;
+				var dHeight = nameIframe.contentWindow.document.documentElement.scrollHeight;
 				console.log("dH="+dHeight);
 				var height = Math.max(bHeight, dHeight);
-				iframe.height = height;
+				nameIframe.height = height;
+				console.log(height);
+				}catch (ex){}
+				
+				var eduIframe = document.getElementById("eduFrame");
+				try{
+				var bHeight = eduIframe.contentWindow.document.body.scrollHeight;
+				console.log("bH="+bHeight);
+				var dHeight = eduIframe.contentWindow.document.documentElement.scrollHeight;
+				console.log("dH="+dHeight);
+				var height = Math.max(bHeight, dHeight);
+				eduIframe.height = height;
 				console.log(height);
 				}catch (ex){}
 			}
