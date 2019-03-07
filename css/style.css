@@ -28,6 +28,7 @@
 	margin-left:5%;
 	margin-right:5%;
 	margin-top: 3%;
+	margin-bottom: 3%;
 }
 .divider{
 	width:100%;
@@ -40,4 +41,33 @@
 	margin-top: 3%;
 	margin-left: 2%;
 	margin-right: 2%;
+}
+/*exp*/
+.blank{
+	width:100%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+/*whole*/
+.whole_contain{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.whole_name{
+	width: 100%;
+	position:relative;
+}
+.whole_nameLeft{
+	text-align:center;
+}
+.whole_nameRight{
+	float:right;
+	margin-right:5%;
+}
+.whole_section{
+	position:relative;
+	margin-top:5%;
+	
 }
